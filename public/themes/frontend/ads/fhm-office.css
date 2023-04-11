@@ -1,0 +1,238 @@
+body,
+small,
+.sub-menu-container .menu-item > .menu-link,
+.wp-caption,
+.fbox-center.fbox-italic p,
+.skills li .progress-percent .counter,
+.nav-tree ul ul a,
+.font-body,
+.menu-link,
+.fbox-content h3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.fbox-border.fbox-effect .fbox-icon i::after,
+.top-cart-number::before,
+#page-menu-wrap,
+.page-menu-nav,
+.control-solid .flex-control-nav li:hover a,
+.control-solid .flex-control-nav li a.flex-active,
+.grid-filter li.activeFilter a,
+.grid-filter.style-4 li.activeFilter a::after,
+.grid-shuffle:hover,
+.entry-link:hover,
+.button.button-dark:hover,
+.button.button-3d:hover,
+.fbox-icon i,
+.fbox-icon img,
+.fbox-effect.fbox-dark .fbox-icon i:hover,
+.fbox-effect.fbox-dark:hover .fbox-icon i,
+.fbox-border.fbox-effect.fbox-dark .fbox-icon i::after,
+.i-rounded:hover,
+.i-circled:hover,
+.tab-nav.tab-nav2 li.ui-state-active a,
+.testimonial .flex-control-nav li a,
+.skills li .progress,
+.owl-carousel .owl-dots .owl-dot,
+#gotoTop:hover,
+input.switch-toggle-round:checked + label::before,
+input.switch-toggle-flat:checked + label,
+input.switch-toggle-flat:checked + label::after,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+input.switch-toggle-round:checked + label::before,
+input.switch-toggle-flat:checked + label,
+input.switch-toggle-flat:checked + label::after,
+.dark .entry-link:hover,
+.dark .fbox-effect.fbox-dark .fbox-icon i:hover,
+.dark .fbox-effect.fbox-dark:hover .fbox-icon i,
+.dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i::after,
+.dark .i-rounded:hover,
+.dark .i-circled:hover,
+.dark .tab-nav.tab-nav2 li.ui-state-active a,
+.dark #gotoTop:hover,
+.dark input.switch-toggle-round:checked + label::before,
+.dark input.switch-toggle-flat:checked + label,
+.dark input.switch-toggle-flat:checked + label::after {
+  background-color: #ffd042 !important;
+}
+
+.fbox-border.fbox-effect .fbox-icon i:hover,
+.fbox-border.fbox-effect:hover .fbox-icon i {
+  color: #000;
+}
+
+/* START HEADER */
+#logo img {
+  height: 60px !important;
+}
+.sticky-header-shrink #header-wrap #logo img {
+  height: 35px !important;
+}
+/* END HEADER */
+
+/* START ADVANTAGE */
+#advantage .advantage-container {
+  background-color: #f8f8f8;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+#advantage .fbox-content {
+  display: flex;
+  align-items: center;
+}
+
+#category .category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px 10px;
+  margin: 10px 0;
+  background-color: #f8f8f8;
+}
+
+#category .category-item:hover .category-img img {
+  transform: scale(1.2);
+}
+
+#category .category-item h3 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#category .category-img {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#category .category-img img {
+  width: 55%;
+  transition: all ease 0.5s;
+}
+
+#advantage .feature-box {
+  margin: 20px 0;
+}
+/* END ADVANTAGE */
+
+/* START PRODUCT */
+#product .product-banner {
+  position: relative;
+  height: 100%;
+}
+
+#product .product-banner:hover .product-banner-img img {
+  transform: scale(1.1);
+}
+
+#product .product-banner-img {
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#product .product-banner-img img {
+  height: 100%;
+  max-width: unset;
+  transition: all ease 0.6s;
+}
+
+#product .product-banner-text {
+  position: absolute;
+  top: 20%;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+#product .product-banner-text h3 {
+  font-size: 35px;
+  color: #fff;
+  line-height: 50px;
+  margin-bottom: 0;
+  width: 80%;
+}
+
+#product .product-banner-text .button {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: fit-content;
+  border-radius: 30px;
+  padding: 15px 20px;
+  text-transform: unset;
+  font-size: 15px;
+  margin: 0;
+}
+
+#product .product-image {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+#product .product-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#product .product-title h3 a {
+  font-size: 20px;
+}
+
+#product .product-rating i {
+  color: #ffd042;
+  font-size: 20px;
+}
+
+/* END PRODUCT */
+
+/* START FORM */
+#form .card {
+  height: 100%;
+  background-color: transparent;
+}
+
+#form .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form .card-body .button {
+  border-radius: 30px;
+}
+
+#form .card-body .sm-form-control {
+  border-radius: 30px !important;
+}
+
+/* END FORM */
+
+/* START FOOTER */
+#footer .button {
+  border-radius: 30px;
+}
+
+#footer .sm-form-control {
+  border-radius: 30px !important;
+}
+/* END FOOTER */
